@@ -5,10 +5,7 @@ let sound = new Audio('audio/drum.wav');
 let song = new Audio('audio/peachykeen.wav');
 
 let soundBtn = document.querySelector('#sound');
-soundBtn.addEventListener("click", () => {
-    sound.currentTime=0;
-    sound.play()
-});
+soundBtn.addEventListener("click", () => sound.play());
 
 // Select button
 let songBtn = document.querySelector('#song');
